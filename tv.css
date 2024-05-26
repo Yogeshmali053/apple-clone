@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: sticky;
+    top: 0.1%;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 50px;
+   
+}
+header nav ul li a{
+    color:white;
+}
+.nav ul li:hover{
+    border: 3px solid rgb(153, 139, 33);
+    background:rgb(153, 139, 33);
+   
+ }
+
+.sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav a{
+    color: blue;
+}
+.home{
+    background-color: #f5f5f7;
+}
+.home img{
+    width: 900px;
+    margin: 60px 0px 0px 23%;
+}
+.home-text{
+    margin: 30px 10px 0px 20%;
+}
+.home-text h1{
+    font-size: 80px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.home-text p{
+    color: #717171;
+    font-size: 25px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0px 120px 0px 0px;
+}
+.fle{
+    display: flex;
+    background-color: #f5f5f7;
+    padding-bottom: 140px;
+   
+}
+.flex{
+    padding-top: 50px;
+    background-color: #f5f5f7;
+   
+    padding-left: 80px;
+}
+.box{
+    background-color: black;
+    width: 678px;
+    height: 650px;
+    border-radius: 25px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 60px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0px 0px 0px 30%;
+}
+.btn-2{
+    position: absolute;
+    top: 100px;
+    margin-left: 40px;
+    
+   
+}
+.btn-2 button{
+    position: absolute;
+    top: 80%;
+    width: 110px;
+    height: 40px;
+    background-color:rgb(12, 146, 229);
+    color: black;
+    border: none;
+    font-size: 19px;
+    border-radius: 25px;
+    margin: 80px 0px 0px 180px;
+    
+    
+   
+}
+.btn-2 span{
+    font-size: 20px;
+    top: 85%;
+    margin: 90px 0px 0px 320px;
+    position: absolute;
+   
+    
+   color:rgb(55, 137, 158);
+}
+
+.flex-1{
+    padding-top: 50px;
+    background-color: #f5f5f7;
+    
+    padding-left: 60px;
+}
+.box-1{
+    background-color:white;
+    width: 678px;
+    height: 610px;
+    border-radius: 25px;
+    position: relative;
+}
+.text-1{
+    position: absolute;
+    top: 60px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0px 0px 0px 30%;
+}
+.btn-1{
+    position: absolute;
+    top: 120px;
+    margin-left: 40px;
+    
+   
+}
+.btn-1 button{
+    position: absolute;
+    top: 80%;
+    width: 110px;
+    height: 40px;
+    background-color:rgb(12, 146, 229);
+    color: black;
+    border: none;
+    font-size: 19px;
+    border-radius: 25px;
+    margin: 80px 0px 0px 180px;
+    
+    
+   
+}
+.btn-1 span{
+    font-size: 20px;
+    top: 85%;
+    margin: 90px 0px 0px 320px;
+    position: absolute;
+   
+    
+   color:rgb(55, 137, 158);
+}
+footer{
+    background-color:white;
+    color:black;
+    padding-top: 30px;
+   
+    
+    
+}
+.main-footer{
+ 
+    display: flex;
+    justify-content: space-around;
+}
+.footer li{
+    list-style: none;
+}
+.footer ul li{
+     margin-bottom: 10px;
+}
+.footer2 li{
+    list-style: none;
+}
+.footer2 ul li{
+    margin-bottom: 10px;
+
+}
+.footer3 li{
+    list-style: none;
+}
+.footer3 ul li{
+    margin-bottom: 10px;
+}
+.footer4 li{
+    list-style: none;
+}
+.footer4 ul li{
+    margin-bottom: 10px;
+}
+.footer5 li{
+    list-style: none;
+}
+.footer5 ul li{
+    margin-bottom: 10px;
+}
+.footer-text{
+    margin-top:40px ;
+}
+.footer-text p{
+    margin-left: 80px;
+    padding: 10px;
+}
+.footer-nav{
+    padding: 10px;
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-nav li{
+    display: inline;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+

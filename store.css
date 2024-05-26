@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navv{
+    position: sticky;
+    top: 0.1%;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 50px;
+   
+}
+header nav ul li a{
+    color:white;
+}
+.navv ul li:hover{
+    border: 3px solid rgb(153, 139, 33);
+    background:rgb(153, 139, 33);
+   
+ }
+.sub-nav{
+    
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav a{
+    color: blue;
+}

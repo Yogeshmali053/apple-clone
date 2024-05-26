@@ -1,0 +1,309 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: sticky;
+    top: 0.1%;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 50px;
+   
+}
+header nav ul li a{
+    color:white;
+}
+.nav ul li:hover{
+    border: 3px solid rgb(153, 139, 33);
+    background:rgb(153, 139, 33);
+   
+ }
+
+.sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav a{
+    color: blue;
+}
+.hero{
+    text-align: center;
+    padding-top: 40px;
+}
+.hero h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.hero h5{
+    font-size: 20px;
+}
+.link{
+    margin-top: 12px;
+}
+.link a{
+    
+    color:rgb(255, 255, 255);
+}
+.link button{
+    width: 100px;
+    height: 45px;
+    background-color:rgb(113, 113, 113);
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+    
+}
+button:hover{
+border: 2px solid rgb(233, 251, 251);
+color:azure;
+font-size: 10px;
+background-color: black;
+}
+.second{
+    background-color: black;
+    color: white;
+    height: 70vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.second h1{
+    margin-bottom: 10px;
+}
+.second h5{
+    margin-bottom:15px ;
+}
+.link-1 a{
+    color: black;
+}
+    
+
+.link-1 button{
+    width: 100px;
+    height: 45px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: none;
+    font-size: 17px;
+    border-radius: 25px;
+    margin-top: 30px;
+    
+}
+button:hover{
+border: 2px solid rgb(233, 251, 251);
+color:azure;
+font-size: 10px;
+background-color: black;
+}
+.main{
+    display: flex;
+    margin:10px;
+}
+
+.box{
+    width:49%;
+    background-color: black;
+    color:white;
+    margin: 6px;
+    text-align: center;
+    padding-top: 16px;
+    border-radius: 25px;
+}
+.link-2 a{
+    color: black;
+}
+.link-2 button{
+    width: 100px;
+    height: 45px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+    
+}
+button:hover{
+border: 2px solid rgb(233, 251, 251);
+color:azure;
+font-size: 10px;
+background-color: black;
+}
+.outer{
+    display: flex;
+    margin: 7px;
+}
+.Box2{
+    width: 49%;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 15px;
+}
+.link-4 a{
+    color: black;
+}
+.link-4 button{
+    width: 100px;
+    height: 35px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 16px;
+    
+}
+.link-3 a{
+    color: black;
+}
+.link-3 button{
+    width: 100px;
+    height: 45px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+    
+}
+.Box3{
+    width: 49%;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 15px;
+}
+.link-5 a{
+    color: black;
+}
+.link-5 button{
+    width: 100px;
+    height: 35px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 16px;
+    
+}
+.ipad{
+   
+    background-color: azure;
+    display: flex;
+    padding-top: 10px;
+}
+.first{
+    width: 49%;
+    margin: 4px;
+    
+
+}
+.ipad-text{
+    text-align: center;
+    width: 49%;
+}
+.ipad-text h1{
+    padding-top:10%;
+    text-align: center;
+    margin: 2px;
+}
+.ipad-text p{
+    padding-top:5px;
+}
+.btn{
+    margin-top: 10%;
+}
+.btn button{
+    border:  2px solid gray;
+    padding:10px;
+    border-radius: 25px;
+}
+button:hover{
+    border: 3px solid rgb(0, 0, 0);
+    color:azure;
+    font-size: 15px;
+    background-color: rgb(147, 145, 145);
+}
+footer{
+    background-color:black;
+    color: white;
+    padding: 40px;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer li{
+    list-style: none;
+}
+.footer ul li{
+     margin-bottom: 10px;
+}
+.footer2 li{
+    list-style: none;
+}
+.footer2 ul li{
+    margin-bottom: 10px;
+
+}
+.footer3 li{
+    list-style: none;
+}
+.footer3 ul li{
+    margin-bottom: 10px;
+}
+.footer4 li{
+    list-style: none;
+}
+.footer4 ul li{
+    margin-bottom: 10px;
+}
+.footer5 li{
+    list-style: none;
+}
+.footer5 ul li{
+    margin-bottom: 10px;
+}
+.footer-text{
+    margin-top:40px ;
+}
+.footer-text p{
+    margin-left: 80px;
+    padding: 10px;
+}
+.footer-nav{
+    padding: 10px;
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-nav li{
+    display: inline;
+    margin-left: 80px;
+}
+
+
+
+

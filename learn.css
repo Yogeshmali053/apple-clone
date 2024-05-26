@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ask{
+    background-color:rgb(193, 189, 189);
+    margin-top: 30px;
+    padding-bottom: 15px;
+    
+
+}
+.ask img{
+    
+    width: 100px;
+   margin: 20px 0px 0px 46%;
+    border-radius:47px;
+    
+}
+.ask  h3{
+    padding-left: 43%;
+}
+.ask a{
+    padding: 43%
+}

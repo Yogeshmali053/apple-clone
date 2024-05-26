@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navv{
+    position: sticky;
+    top: 0.1%;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 50px;
+   
+}
+header nav ul li a{
+    color:white;
+}
+.navv ul li:hover{
+    border: 3px solid rgb(153, 139, 33);
+    background:rgb(153, 139, 33);
+   
+ }
+ .sub-nav{
+    
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav a{
+    color: blue;
+}
+.mac{
+    background-color: white;
+    
+}
+.mac h1{
+    font-size: 60px;
+    font-family:SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+.mac h3{
+    padding-left: 75%;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+.video{
+    background-color: white;
+    width: 100%;
+  
+    
+}
+.video video{
+    border-radius: 4%;
+    margin: 20px 24px 0 15px;
+    height: 600px;
+    object-fit: cover;
+}
